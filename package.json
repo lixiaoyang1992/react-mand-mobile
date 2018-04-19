@@ -1,0 +1,42 @@
+{
+  "name": "react-mand-mobile",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^0.58.0",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-typescript": "^0.8.1"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "description": "[![Greenkeeper badge](https://badges.greenkeeper.io/rollup/rollup-starter-lib.svg)](https://greenkeeper.io/)",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lixiaoyang1992/react-mand-mobile.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "mobile"
+  ],
+  "author": "lixiaoyang1992",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lixiaoyang1992/react-mand-mobile/issues"
+  },
+  "homepage": "https://github.com/lixiaoyang1992/react-mand-mobile#readme"
+}
