@@ -1,33 +1,45 @@
 {
   "name": "react-mand-mobile",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "browser": "dist/index.umd.js",
-  "dependencies": {},
-  "devDependencies": {
-    "rollup": "^0.58.0",
-    "rollup-plugin-commonjs": "^9.1.0",
-    "rollup-plugin-node-resolve": "^3.0.0",
-    "rollup-plugin-typescript": "^0.8.1"
-  },
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
+    "start": "bisheng start -c ./site/bisheng.config.js",
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "test": "node test/test.js",
     "pretest": "npm run build"
   },
-  "files": [
-    "dist"
-  ],
-  "description": "[![Greenkeeper badge](https://badges.greenkeeper.io/rollup/rollup-starter-lib.svg)](https://greenkeeper.io/)",
+  "dependencies": {
+    "@types/classnames": "^2.2.3",
+    "@types/react": "^16.3.8",
+    "@types/react-dom": "^16.0.5",
+    "antd": "^3.4.1",
+    "classnames": "^2.2.5",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
+  "peerDependencies": {
+    "antd": ">=3.0.0",
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  },
+  "devDependencies": {
+    "bisheng": "^0.28.3",
+    "react-document-title": "^2.0.3",
+    "rollup": "^0.57.0",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-css-only": "^0.4.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-typescript": "^0.8.1"
+  },
+  "description": "react mand mobile",
   "directories": {
     "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/lixiaoyang1992/react-mand-mobile.git"
-  },
+  "repository": "git+ssh://git@github.com/lixiaoyang1992/react-mand-mobile.git",
   "keywords": [
     "react",
     "component",
@@ -38,5 +50,6 @@
   "bugs": {
     "url": "https://github.com/lixiaoyang1992/react-mand-mobile/issues"
   },
-  "homepage": "https://github.com/lixiaoyang1992/react-mand-mobile#readme"
+  "homepage": "https://github.com/lixiaoyang1992/react-mand-mobile#readme",
+  "private": false
 }

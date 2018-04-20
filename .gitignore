@@ -57,6 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+lib
 .DS_Store
 dist
 package-lock.json
+yarn.lock

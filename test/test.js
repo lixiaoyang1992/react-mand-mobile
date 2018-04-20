@@ -1,8 +1,8 @@
 const assert = require("assert");
-const main = require("..");
+const howLongTillLunch = require("..");
 
 function test() {
-  assert.equal(main(), 1);
+  console.log(1234);
 }
 
 test();
