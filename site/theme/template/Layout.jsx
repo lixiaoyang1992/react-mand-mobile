@@ -6,7 +6,6 @@ export default ({ themeConfig, children }) => {
   return (
     <div>
       <div className="header">
-      1111
         <div className="container">
           <div className="brand">
             <Link className="home" to={themeConfig.home}>{themeConfig.sitename}</Link>
