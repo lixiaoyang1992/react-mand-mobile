@@ -1,3 +1,3 @@
-import Paper from "./Paper";
+import Button from "./button";
 
-export { Paper };
+export { Button };
