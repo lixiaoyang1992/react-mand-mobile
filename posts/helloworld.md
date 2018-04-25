@@ -16,3 +16,12 @@ Hello world!
   console.log('Hello world!');
 })();
 ```
+
+...
+
+This is a button:
+
+```jsx
+ReactDOM.render(<div>Click!</div>, mountNode);
+```
+...
