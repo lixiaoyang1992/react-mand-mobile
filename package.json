@@ -6,7 +6,8 @@
     "lib"
   ],
   "scripts": {
-    "start": "bisheng start -c ./site/bisheng.config.js",
+    "start": "bisheng start -c ./bisheng.config.js",
+    "build:site": "bisheng build --ssr",
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "test": "node test/test.js",
