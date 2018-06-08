@@ -6,14 +6,14 @@
     "lib"
   ],
   "scripts": {
-    "start": "bisheng start -c ./bisheng.config.js",
-    "build:site": "bisheng build --ssr",
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "test": "node test/test.js",
-    "pretest": "npm run build"
+    "pretest": "npm run build",
+    "build:site": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'"
   },
-  "dependencies": {},
   "peerDependencies": {
     "antd": ">=3.0.0",
     "react": ">=16.0.0",
@@ -23,14 +23,14 @@
     "@types/react": "^16.3.8",
     "@types/react-dom": "^16.0.5",
     "antd": "^3.4.1",
-    "bisheng": "^0.28.3",
-    "bisheng-plugin-antd": "^0.16.3",
-    "bisheng-plugin-react": "^0.6.3",
-    "bisheng-plugin-toc": "^0.4.4",
     "classnames": "^2.2.5",
+    "gatsby": "^1.9.247",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-react-helmet": "^2.0.10",
     "react": "^16.3.1",
     "react-document-title": "^2.0.3",
     "react-dom": "^16.3.1",
+    "react-helmet": "^5.2.0",
     "rollup": "^0.57.0",
     "rollup-plugin-commonjs": "^9.1.0",
     "rollup-plugin-css-only": "^0.4.0",
