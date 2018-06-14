@@ -62,3 +62,5 @@ lib
 dist
 package-lock.json
 yarn.lock
+
+.cache
