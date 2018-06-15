@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Header from '../components/header'
 import SideBar from '../components/sidebar'
 import './index.css'
+import '../../lib/style.css'
 
 const Layout = ({ children, data }) => (
   <div>

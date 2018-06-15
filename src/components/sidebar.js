@@ -6,10 +6,10 @@ class sidebar extends Component {
     return (
       <div>
         <div>
-          <Link to="/">组件1</Link>
+          <Link to="/">首页</Link>
         </div>
         <div>
-          <Link to="/page-2">组件2</Link>
+          <Link to="/paper">Paper</Link>
         </div>
       </div>
     )
