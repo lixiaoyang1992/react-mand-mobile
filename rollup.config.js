@@ -23,7 +23,7 @@ export default [
       resolve(), // so Rollup can find `ms`
       commonjs(), // so Rollup can convert `ms` to an ES module
       typescript(),
-      css({ output: "lib/style.css" })
+      css({ output: "lib/style.less" })
     ]
   }
 ];
