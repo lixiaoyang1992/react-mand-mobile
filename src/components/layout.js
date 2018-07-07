@@ -1,7 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from 'gatsby'
+import Menu from './Menu'
+import '../../lib/style.less'
 
 import Header from './header'
 import './layout.css'
@@ -27,6 +29,7 @@ const Layout = ({ children, data }) => (
           ]}
         />
         <Header siteTitle={data.site.siteMetadata.title} />
+        <Menu />
         <div
           style={{
             margin: '0 auto',

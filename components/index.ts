@@ -1,6 +1,5 @@
-import Button from './button'
-import DropMenu from './drop-menu'
-import NoticeBar from './notice-bar'
 import Paper from './Paper'
+import CheckableTag from './CheckableTag'
+import './style.less'
 
-export { Button, DropMenu, NoticeBar, Paper }
+export { Paper, CheckableTag }
