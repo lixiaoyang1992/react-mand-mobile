@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import { Paper } from '../../lib'
+import { Paper } from '../../lib/index.esm'
 
 import Layout from '../components/layout'
 

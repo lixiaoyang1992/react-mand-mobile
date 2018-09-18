@@ -14,7 +14,7 @@ export default [
   // `file` and `format` for each target)
   {
     input: 'components/index.ts',
-    external: ['react', 'react-dom', 'antd', 'classnames'],
+    external: ['react', 'react-dom', 'classnames'],
     output: [
       {
         file: pkg.main,

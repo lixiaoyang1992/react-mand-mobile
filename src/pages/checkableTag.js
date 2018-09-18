@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { CheckableTag } from '../../lib'
+import { CheckableTag } from '../../lib/index.esm'
 
 import Layout from '../components/layout'
 
