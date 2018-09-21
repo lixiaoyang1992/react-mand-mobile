@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: '组件库',
+    siteName: `Using Typescript Example`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -16,7 +16,15 @@ module.exports = {
         // icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography.js`,
+        omitGoogleFont: true,
+      },
+    },
     'gatsby-plugin-less',
     'gatsby-plugin-offline',
+    'gatsby-plugin-typescript',
   ],
 }

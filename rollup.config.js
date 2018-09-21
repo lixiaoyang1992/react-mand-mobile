@@ -1,7 +1,6 @@
 import resolve from 'rollup-plugin-node-resolve'
 import commonjs from 'rollup-plugin-commonjs'
 import typescript from 'rollup-plugin-typescript'
-import css from 'rollup-plugin-css-only'
 import less from 'rollup-plugin-less'
 import pkg from './package.json'
 

@@ -1,5 +1,5 @@
-import * as React from "react";
-import classNames from "classnames";
+import * as React from 'react';
+import classNames from 'classnames';
 
 type ReactNode = React.ReactNode;
 
@@ -18,7 +18,7 @@ export default class Paper extends React.Component<PaperProps, PaperState> {
 
   render() {
     const { children, style, className } = this.props;
-    const classname = classNames("paper", className);
+    const classname = classNames('paper', className);
     return (
       <div className={classname} style={style}>
         {children}
