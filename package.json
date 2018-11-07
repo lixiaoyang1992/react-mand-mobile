@@ -62,6 +62,7 @@
     "react-document-title": "^2.0.3",
     "react-dom": "^16.5.2",
     "react-helmet": "^5.2.0",
+    "react-live": "^1.12.0",
     "react-test-renderer": "^16.5.2",
     "react-typography": "^0.16.13",
     "rollup": "^0.66.2",

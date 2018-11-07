@@ -1,6 +1,5 @@
-import Paper from './Paper'
-import CheckableTag from './CheckableTag'
-import Button from './Button'
-import './style.less'
+import Paper from './Paper';
+import CheckableTag from './CheckableTag';
+import './style.less';
 
-export { Paper, CheckableTag, Button }
+export { Paper, CheckableTag };
